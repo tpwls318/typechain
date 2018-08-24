@@ -5,5 +5,15 @@
   "repository": "https://github.com/tpwls318/typechain",
   "main": "index.js",
   "license": "MIT",
-  "author": "Saejin Park"
+  "author": "Saejin Park",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.26"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.0.1"
+  }
 }
